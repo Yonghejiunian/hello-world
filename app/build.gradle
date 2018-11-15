@@ -20,9 +20,5 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
-
-    //implementation project(path':foundation')
-    //implementation project(path: ':foundation_base:foundation')
-    //implementation project( ':foundation_base:foundation')
-    //compile project(path: ':basefun:foundation')
+    api project(path: ':foundation:jsonparse')
 }

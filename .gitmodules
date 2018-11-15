@@ -1,0 +1,3 @@
+[submodule "foundation"]
+	path = foundation
+	url = http://git.ixiaochuan.cn/android/foundation.git
