@@ -12,6 +12,10 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         TextView textView = (TextView) findViewById(R.id.test_num);
         int n = Plus.plusTheNum();
+
+
+
+
         textView.setText("我是："+n);
     }
 }
