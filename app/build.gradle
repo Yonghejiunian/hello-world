@@ -24,5 +24,5 @@ dependencies {
     //implementation project(path':foundation')
     //implementation project(path: ':foundation_base:foundation')
     //implementation project( ':foundation_base:foundation')
-    compile project(path: ':basefun:foundation')
+    //compile project(path: ':basefun:foundation')
 }
